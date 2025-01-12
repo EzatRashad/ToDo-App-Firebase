@@ -1,0 +1,17 @@
+{
+  "tasksList":"Tasks List",
+  "settings":"Settings",
+  "addNewTask":"Add new task",
+  "title":"Task title",
+  "description":"Task description",
+  "selectDate":"Select Date-Time",
+  "addTask":"Add Task",
+  "language": "Language",
+  "arabic": "Arabic",
+  "english": "English",
+  "theme": "Themeing",
+  "light": "Light",
+  "dark": "Dark",
+  "editTask": "Edit Task",
+  "save":"Save Changes"
+}

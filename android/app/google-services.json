@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658748476499",
+    "project_id": "mytodo-10248",
+    "storage_bucket": "mytodo-10248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658748476499:android:d63bfe4a83ed30592acaa6",
+        "android_client_info": {
+          "package_name": "com.example.fire_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Cy1gYcZlwSVp2dvGCqMdQ9yAirRGkX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
