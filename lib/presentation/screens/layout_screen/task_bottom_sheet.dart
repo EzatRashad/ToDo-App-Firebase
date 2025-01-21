@@ -174,7 +174,7 @@ class _TaskBottomSheetState extends State<TaskBottomSheet> {
       var authProvider = Provider.of<MyAuthProvider>(context, listen: false);
       FirebaseUtils.addTask(task, authProvider.currentUser?.id ?? "")
           .then((onValue) {
-        DialogUtils.hide(context);
+        DialogUtils.hideLoading(context);
         DialogUtils.showMessage(
           context,
           "Task Added ",
@@ -183,7 +183,7 @@ class _TaskBottomSheetState extends State<TaskBottomSheet> {
             Navigator.pop(context);
           },
         );
-      }).timeout(Duration(milliseconds: 500), onTimeout: () {
+      }).timeout(const Duration(milliseconds: 500), onTimeout: () {
         print("aded --------------------");
         getDataProvider.getTasks(authProvider.currentUser?.id ?? "");
 

@@ -9,16 +9,16 @@ class DialogUtils {
       builder: (context) => AlertDialog(
         content: Row(
           children: [
-            CircularProgressIndicator(),
+            const CircularProgressIndicator(),
             10.pw,
-            Text("Loading.."),
+            const Text("Loading.."),
           ],
         ),
       ),
     );
   }
 
-  static void hide(context) {
+  static void hideLoading(context) {
     Navigator.of(context).pop();
   }
 

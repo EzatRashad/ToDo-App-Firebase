@@ -24,7 +24,7 @@ class SplashScreen extends StatelessWidget {
         ),
         splashIconSize: double.infinity,
 
-        nextScreen: RegisterScreen(),
+        nextScreen: const RegisterScreen(),
         //splashTransition: SplashTransition.scaleTransition,
       ),
     );
